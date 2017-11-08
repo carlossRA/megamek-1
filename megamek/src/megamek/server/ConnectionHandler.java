@@ -36,7 +36,7 @@ public class ConnectionHandler implements Runnable {
     /**
      * Called when the IConnection disconnects and signals the thread to stop.
      */
-    public void signalStop(){
+    public void signalStop(){  
         shouldStop = true;
     }
     
